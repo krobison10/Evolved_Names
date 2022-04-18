@@ -15,8 +15,7 @@ public class Genome implements Comparable<Genome>
     {
         genes = new MyLinkedList<>();
         mutationRate = 0.05;
-        target = new MyLinkedList<>('C','H','R','I','S','T','O','P','H','E','R',' ','P','A','U','L',' ',
-                'M','A','R','R','I','O','T','T');
+        target = new MyLinkedList<>('K','Y','L','E','R',' ','R','O','B','I','S','O','N');
     }
 
     public Genome(Genome genome)
